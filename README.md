@@ -10,7 +10,7 @@ use at your own risk
 
 # Clone the Blockmesh-Proxy directory
 
-```
+```console
 cd $HOME
 
 https://github.com/Kira-888/Blockmesh-Proxy.git
