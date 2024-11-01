@@ -29,8 +29,11 @@ screen -S node1
 [change the number if you want multiple nodes]
 
 cd Blockmesh-Proxy
+
 chmod +x run_blockmesh.sh
+
 chmod +x script.sh
+
 ./run_blockmesh.sh
 ```
 
