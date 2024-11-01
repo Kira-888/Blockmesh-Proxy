@@ -8,6 +8,16 @@ this is only for educational purpose.
 Use of proxies for farming are unethical
 use at your own risk
 
+# Clone the Blockmesh-Proxy directory
+
+```
+cd $HOME
+
+https://github.com/Kira-888/Blockmesh-Proxy.git
+
+cd Blockmesh-Proxy
+```
+
 
 # download the bianry files:
 
@@ -21,14 +31,13 @@ cd target/release/
 echo 'export PATH="$PATH:~/target/release"' >> ~/.bashrc
 source ~/.bashrc
 
+cd /root/Blockmesh-Proxy
 ```
 
 # 
 ```console
 screen -S node1
 [change the number if you want multiple nodes]
-
-cd Blockmesh-Proxy
 
 chmod +x run_blockmesh.sh
 
