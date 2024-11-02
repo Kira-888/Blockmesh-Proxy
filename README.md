@@ -19,7 +19,7 @@ cd Blockmesh-Proxy
 ```
 
 
-# Run the script to Start the Docker building process :
+# Run the script to Start the Docker building process  :
 
 ```console
 screen -S node1
