@@ -19,22 +19,8 @@ cd Blockmesh-Proxy
 ```
 
 
-# download the bianry files:
+# Run the script to Start the Docker building process :
 
-```console
-wget https://github.com/block-mesh/block-mesh-monorepo/releases/download/v0.0.321/blockmesh-cli-x86_64-unknown-linux-gnu.tar.gz
-
-tar -xvzf blockmesh-cli-x86_64-unknown-linux-gnu.tar.gz
-
-cd target/release/
-
-echo 'export PATH="$PATH:~/target/release"' >> ~/.bashrc
-source ~/.bashrc
-
-cd /root/Blockmesh-Proxy
-```
-
-# 
 ```console
 screen -S node1
 [change the number if you want multiple nodes]
@@ -45,6 +31,7 @@ chmod +x script.sh
 
 ./run_blockmesh.sh
 ```
+* if you have latest version then press y, if not then press n
 
 * give the image name to build
 
