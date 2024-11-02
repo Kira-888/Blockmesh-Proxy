@@ -31,7 +31,7 @@ chmod +x script.sh
 
 ./run_blockmesh.sh
 ```
-* if you have latest version then press y, if not then press n
+* if you have latest version of blockmesh-cli binary then press y, if not then press n
 
 * give the image name to build
 
