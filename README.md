@@ -8,6 +8,14 @@ this is only for educational purpose.
 Use of proxies for farming are unethical
 use at your own risk
 
+# Buying VPS and Proxy:
+
+support me to make more scripts by buying using this link:
+
+[Buy Proxy](https://app.proxy-cheap.com/r/JVl4lg)
+
+[Buy VPS](https://contabo.com/en/)
+
 # Clone the Blockmesh-Proxy directory
 
 ```console
