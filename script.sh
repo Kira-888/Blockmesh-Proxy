@@ -1,14 +1,14 @@
 #!/bin/bash
 
-# Function to generate a fake UUID
+
 generate_uuid() {
     uuidgen
 }
 
-# Prompt for device name
+
 read -p "Enter the device name: " device_name
 
-# Read node details with validation
+
 read -p "Enter the IP address for the node: " ip_address
 if [[ -z "$ip_address" ]]; then
     echo "IP address cannot be empty."
@@ -45,17 +45,17 @@ if [[ -z "$login_password" ]]; then
     exit 1
 fi
 
-# Generate a random MAC address for the container
+
 mac_address="02:42:ac:$(printf '%02x' $((RANDOM%256))):$(printf '%02x' $((RANDOM%256))):$(printf '%02x' $((RANDOM%256)))"
 
-# Generate a unique UUID and store it in the node directory
+
 fake_product_uuid_file="$device_name.txt"
 if [ ! -f "$fake_product_uuid_file" ]; then
     generated_uuid=$(generate_uuid)
     echo "$generated_uuid" > "$fake_product_uuid_file"
 fi
 
-# Create proxychains.conf for this node
+
 proxychains_conf="$device_name.conf"
 cat <<EOF > "$proxychains_conf"
 strict_chain
